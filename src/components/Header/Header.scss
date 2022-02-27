@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  padding: 18px 80px;
+  align-items: center;
+  background: #181a26;
+
+  &__logo {
+    margin-right: 60px;
+  }
+
+  &__links {
+    color: #fff;
+    display: grid;
+    grid-gap: 60px;
+    max-width: 760px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__link {
+    padding: 2px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: linear-gradient(to right, #7741f3, #457bf8);
+    }
+
+    &-label {
+      display: block;
+      padding: 4px 24px;
+      border-radius: 16px;
+      background: #181a26;
+    }
+  }
+
+  .connect-button {
+    margin-left: auto;
+  }
+}
