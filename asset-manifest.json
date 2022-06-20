@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4a384234.css",
-    "main.js": "/static/js/main.03ee8759.js",
+    "main.js": "/static/js/main.a8ce9479.js",
     "static/js/787.c23b093c.chunk.js": "/static/js/787.c23b093c.chunk.js",
     "static/media/skins.png": "/static/media/skins.39e42b1d4e719343c707.png",
     "static/media/lands.png": "/static/media/lands.35aa906c630f53809f92.png",
@@ -13,26 +13,27 @@
     "static/media/skins-4.png": "/static/media/skins-4.5fbe0d160ebf34ad8af3.png",
     "static/media/2.png": "/static/media/2.3466a6986d86a81c00be.png",
     "static/media/toy.png": "/static/media/toy.4de26f3eb5fc855df7fa.png",
+    "static/media/5.png": "/static/media/5.bf27de7fe8cec3223ec6.png",
     "static/media/3.png": "/static/media/3.75f40ae6bd106dcafaef.png",
     "static/media/weapons.png": "/static/media/weapons.31870e4f68593dd38fc7.png",
     "static/media/1.png": "/static/media/1.5c7494220081bfbfb3f0.png",
-    "static/media/5.png": "/static/media/5.0563624712e3a034251d.png",
     "static/media/9.png": "/static/media/9.2a231ba8915f533c9762.png",
     "static/media/battery_factory.png": "/static/media/battery_factory.5c9e90f3f7090393374b.png",
     "static/media/4.png": "/static/media/4.25a948c392bc806a65dd.png",
     "static/media/market.png": "/static/media/market.585ff610c10af063538c.png",
     "static/media/establishments.png": "/static/media/establishments.12d467f78228bb2d75b6.png",
     "static/media/7.png": "/static/media/7.f41606d2c3e37526890d.png",
+    "static/media/6.png": "/static/media/6.af1822e9da253f6c17a6.png",
     "static/media/munition_factory.png": "/static/media/munition_factory.828d1a5418f5b189cf3d.png",
     "static/media/8.png": "/static/media/8.26d250f7f52be2594dd6.png",
-    "static/media/10.png": "/static/media/10.df2d8e26d71e026e478c.png",
+    "static/media/10.png": "/static/media/10.cade8338e0f4d098722f.png",
     "index.html": "/index.html",
     "main.4a384234.css.map": "/static/css/main.4a384234.css.map",
-    "main.03ee8759.js.map": "/static/js/main.03ee8759.js.map",
+    "main.a8ce9479.js.map": "/static/js/main.a8ce9479.js.map",
     "787.c23b093c.chunk.js.map": "/static/js/787.c23b093c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a384234.css",
-    "static/js/main.03ee8759.js"
+    "static/js/main.a8ce9479.js"
   ]
 }
