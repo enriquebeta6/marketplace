@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.4a384234.css",
-    "main.js": "/static/js/main.a8ce9479.js",
+    "main.js": "/static/js/main.c7547c86.js",
     "static/js/787.c23b093c.chunk.js": "/static/js/787.c23b093c.chunk.js",
     "static/media/skins.png": "/static/media/skins.39e42b1d4e719343c707.png",
-    "static/media/lands.png": "/static/media/lands.35aa906c630f53809f92.png",
+    "static/media/lands.png": "/static/media/lands.38968f0543c872f056a8.png",
+    "static/media/establishments.png": "/static/media/establishments.791522f4b1115c2d60d3.png",
     "static/media/cards.png": "/static/media/cards.5c9ffe39b963baa402df.png",
     "static/media/skins-1.png": "/static/media/skins-1.ce1b90a80c0baf07aae5.png",
     "static/media/skins-2.png": "/static/media/skins-2.0f9b3b93fe03188821ca.png",
@@ -21,7 +22,6 @@
     "static/media/battery_factory.png": "/static/media/battery_factory.5c9e90f3f7090393374b.png",
     "static/media/4.png": "/static/media/4.25a948c392bc806a65dd.png",
     "static/media/market.png": "/static/media/market.585ff610c10af063538c.png",
-    "static/media/establishments.png": "/static/media/establishments.12d467f78228bb2d75b6.png",
     "static/media/7.png": "/static/media/7.f41606d2c3e37526890d.png",
     "static/media/6.png": "/static/media/6.af1822e9da253f6c17a6.png",
     "static/media/munition_factory.png": "/static/media/munition_factory.828d1a5418f5b189cf3d.png",
@@ -29,11 +29,11 @@
     "static/media/10.png": "/static/media/10.cade8338e0f4d098722f.png",
     "index.html": "/index.html",
     "main.4a384234.css.map": "/static/css/main.4a384234.css.map",
-    "main.a8ce9479.js.map": "/static/js/main.a8ce9479.js.map",
+    "main.c7547c86.js.map": "/static/js/main.c7547c86.js.map",
     "787.c23b093c.chunk.js.map": "/static/js/787.c23b093c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a384234.css",
-    "static/js/main.a8ce9479.js"
+    "static/js/main.c7547c86.js"
   ]
 }
