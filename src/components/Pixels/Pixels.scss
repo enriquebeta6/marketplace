@@ -1,0 +1,38 @@
+:root {
+  --pixel-gap: 4px;
+}
+
+.pixels {
+  background: #fff;
+  padding: var(--pixel-gap);
+  grid-gap: var(--pixel-gap);
+  border-radius: var(--pixel-gap);
+  display: inline-grid;
+  grid-template-columns: repeat(26, var(--pixel-size));
+  grid-auto-flow: row;
+}
+
+.pixels-container {
+  display: inline-grid;
+  grid-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 16px auto;
+}
+
+.coordinates {
+  color: #fff;
+  font-size: 10px;
+  align-items: center;
+  display: grid;
+
+  &-x {
+    grid-column: 2 / 3;
+    text-align: center;
+    grid-template-columns: repeat(26, 1fr);
+  }
+
+  &-y {
+    text-align: right;
+    grid-template-rows: repeat(26, 1fr);
+  }
+}

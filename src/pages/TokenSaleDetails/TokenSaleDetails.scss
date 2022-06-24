@@ -1,0 +1,26 @@
+.sale {
+  display: flex;
+  justify-content: space-between;
+
+  &__details {
+    width: 100%;
+    max-width: 518px;
+  }
+
+  &__swap {
+    width: 100%;
+    max-width: 490px;
+  }
+
+  &__swap {
+    .card__container {
+      padding: 60px 80px;
+    }
+  }
+
+  &__details {
+    .card__container {
+      padding: 32px 24px;
+    }
+  }
+}

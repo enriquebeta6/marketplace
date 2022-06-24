@@ -1,0 +1,81 @@
+.minicart {
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  filter: drop-shadow(0px 14px 12px rgba(0, 0, 0, 0.2));
+  background: linear-gradient(-90deg, #2f90ff 0%, #2770c3 100%);
+  
+  &__wrapper {
+    border-radius: 10px;
+    background: #181a26;
+    padding: 32px 16px 56px;
+  }
+
+  &__header {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Karla";
+  }
+
+  &__content-title {
+    text-align: right;
+  }
+
+  &__items {
+    font-size: 14px;
+    list-style: none;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 14px;
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding-bottom: 4px;
+      justify-content: flex-end;
+      border-bottom: 1px solid #6569a5;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      svg {
+        cursor: pointer;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &__total {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    font-family: "Karla";
+  }
+
+  &__buy-button {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 8px 32px;
+    border-radius: 14px;
+    font-family: "Karla";
+    background: linear-gradient(-90deg, #2f90ff 0%, #2770c3 100%);
+    transition: all 0.3s ease-in-out;
+    left: 50%;
+    position: absolute;
+    top: calc(100% - 34px / 2);
+    transform: translateX(-50%);
+
+    &:hover {
+      background: linear-gradient(-90deg, #0d6ede 0%, #0d4c93 100%);
+    }
+  }
+}

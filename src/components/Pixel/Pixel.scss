@@ -1,0 +1,98 @@
+:root {
+  --pixel-size: 16px;
+}
+
+.pixel {
+  width: var(--pixel-size);
+  height: var(--pixel-size);
+  display: block;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    transform: scale(2);
+  }
+
+  &--blue {
+    background: #005efc;
+  }
+
+  &--cyan {
+    background: #15e2d5;
+  }
+
+  &--green {
+    background: #a7d422;
+  }
+
+  &--orange {
+    background: #ff7b10;
+  }
+
+  &--pink {
+    background: #d01373;
+  }
+
+  &--yellow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    pointer-events: none;
+    background: #feda00;
+    
+    &[href$="-13/13"]:before {
+      content: '';
+      width: 36px;
+      height: 36px;
+      position: absolute;
+      background: inherit;
+    }
+  }
+
+  &--black {
+    position: relative;
+    background: #000;
+    pointer-events: none;
+
+    &:first-child,
+    &:last-child {
+      z-index: 1;
+
+      &::before,
+      &::after {
+        content: '';
+        width: var(--pixel-size);
+        height: var(--pixel-size);
+        display: block;
+        position: absolute;
+        background: #000;
+      }
+    }
+
+    &:first-child {
+      &::before {
+        height: calc(var(--pixel-size) * 2 + var(--pixel-gap))
+      }
+
+      &::after {
+        width: calc(var(--pixel-size) * 2 + var(--pixel-gap))
+      }
+    }
+
+    &:last-child {
+      &::before {
+        height: calc(var(--pixel-size) * 2 + var(--pixel-gap));
+        top: calc(-100% + (var(--pixel-gap) * -1));
+      }
+
+      &::after {
+        width: calc(var(--pixel-size) * 2 + var(--pixel-gap));
+        left: calc(-100% + (var(--pixel-gap) * -1));
+      }
+    }
+  }
+
+  &--disabled {
+    background: rgba(128, 128, 132, 0.502);
+  }
+}

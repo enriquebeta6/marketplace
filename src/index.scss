@@ -10,6 +10,7 @@
 
 body {
   background: #1d2033;
+  line-height: 1.2;
   font-family: 'Karla', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,4 +18,23 @@ body {
 
 a {
   cursor: pointer;
+}
+
+button {
+  border: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+
+  table & {
+    height: 100%;
+  }
 }

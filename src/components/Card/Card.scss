@@ -1,0 +1,15 @@
+.card {
+  height: 100%;
+  color: #fff;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0px 14px 22.8px 1.2px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #7741f3 0%, #7db9e8 100%);
+
+  &__container {
+    height: 100%;
+    padding: 24px 16px;
+    border-radius: inherit;
+    background-color: #181a26;
+  }
+}

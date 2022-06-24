@@ -1,31 +1,37 @@
 .header {
-  display: flex;
-  padding: 18px 80px;
-  align-items: center;
   background: #181a26;
+
+  &__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1292px;
+    padding: 18px 16px;
+    align-items: center;
+  }
 
   &__logo {
     margin-right: 60px;
   }
 
   &__links {
-    color: #fff;
     display: grid;
-    grid-gap: 60px;
-    max-width: 760px;
+    grid-gap: 24px;
     grid-auto-flow: column;
     grid-template-columns: repeat(4, 1fr);
   }
 
   &__link {
     padding: 2px;
+    color: #fff;
     text-align: center;
     border-radius: 16px;
+    text-decoration: none;
     background: rgba(0, 0, 0, 0);
     transition: all 0.3s ease-in-out;
 
+    &--active,
     &:hover {
-      background: linear-gradient(to right, #7741f3, #457bf8);
+      background: linear-gradient(-90deg, #2f90ff 0%, #2770c3 100%);
     }
 
     &-label {

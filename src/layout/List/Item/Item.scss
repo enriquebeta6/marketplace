@@ -1,0 +1,89 @@
+.nft-sale-list {
+  .item {
+    display: flex;
+    padding: 32px 16px;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #2a3752;
+    filter: drop-shadow(0px 7px 12px rgba(0, 0, 0, 0.18));
+  
+    &__column {
+      display: flex;
+      margin: 0 0 16px;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      &-name {
+        color: #fff;
+        margin: 0 0 8px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Luckiest Guy";
+      }
+  
+      &-value {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    &__image {
+      display: block;
+      max-width: 150px;
+      margin: 0 auto 24px;
+    }
+
+    .quantity-control {
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .select {
+      &__control {
+        border: 0;
+        cursor: pointer;
+        // max-width: 120px;
+        padding: 0 12px;
+        min-height: 30px;
+        border-radius: 15px;
+        background: #2b2e61;
+      }
+
+      &__single-value {
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      &__input,
+      &__dropdown-indicator,
+      &__value-container {
+        padding: 0;
+      }
+
+      &__menu {
+        background: #2b2e61;
+      }
+
+      &__option {
+        color: #fff;
+        cursor: pointer;
+        background: #2b2e61;
+
+        &--is-selected {
+          background: #404490;
+        }
+
+        &:hover {
+          background: #404490;
+        }
+      }
+    }
+
+    .currency {
+      font-size: 16px;
+      font-weight: 800;
+    }
+  }
+}

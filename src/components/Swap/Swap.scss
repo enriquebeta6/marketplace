@@ -1,0 +1,76 @@
+.swap {
+  &__title {
+    font-size: 24px;
+    margin: 0 0 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .currency {
+      &__brand {
+        display: flex;
+        margin-right: 24px;
+        align-items: center;
+      }
+
+      &__logo {
+        margin-right: 8px;
+      }
+
+      &__name {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      &__value {
+        border: 0;
+        outline: 0;
+        color: #fff;
+        padding: 24px;
+        font-size: 18px;
+        max-width: 200px;
+        text-align: right;
+        border-radius: 16px;
+        background: #121319;
+      }
+    }
+  }
+
+  &__arrow {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    background: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 82px 24px auto;
+  }
+
+  &__current {
+    display: flex;
+    margin: 32px 0;
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 10px;
+    background: #222430;
+    justify-content: space-between;
+  }
+
+  &__button {
+    width: 100%;
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    background: #393a47;
+  }
+}

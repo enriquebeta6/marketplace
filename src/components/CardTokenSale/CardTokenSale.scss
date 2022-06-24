@@ -1,0 +1,95 @@
+.card {
+  &__top {
+    display: flex;
+    margin: 0 0 16px;
+
+    *:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+    margin: 0 0 16px;
+    font-family: 'Luckiest Guy';
+
+    .sale & {
+      font-size: 30px;
+    }
+
+    &--small {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: 'Karla';
+    }
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    margin: 0 0 16px;
+  }
+
+  &__info {
+    margin: 0 0 32px;
+    list-style: none;
+
+    .info {
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      justify-content: space-between;
+
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+
+      &__name {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.sale .card {
+  &__top {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 24px;
+
+    &--small {
+      font-size: 20px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 42px;
+  }
+
+  &__info {
+    margin-bottom: 24px;
+
+    .info {
+      font-size: 16px;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+.bsc-logo {
+  margin-right: 4px;
+}
+
+.badge .elipse {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: currentColor;
+}
