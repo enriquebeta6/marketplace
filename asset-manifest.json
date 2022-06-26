@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e15e75c7.css",
-    "main.js": "/static/js/main.e53dbd72.js",
+    "main.css": "/static/css/main.ccfea001.css",
+    "main.js": "/static/js/main.fe69faa2.js",
     "static/js/787.c23b093c.chunk.js": "/static/js/787.c23b093c.chunk.js",
+    "static/media/battery-legendary.png": "/static/media/battery-legendary.c105bbbfe563e01b8a45.png",
+    "static/media/battery-pro.png": "/static/media/battery-pro.dcb5750ef2b79cd8bc88.png",
     "static/media/skins.png": "/static/media/skins.39e42b1d4e719343c707.png",
-    "static/media/battery-pro.png": "/static/media/battery-pro.0e22ef3ed92fdbf6e2b4.png",
-    "static/media/battery-legendary.png": "/static/media/battery-legendary.29672c2b257c3a0a5d69.png",
-    "static/media/battery-common.png": "/static/media/battery-common.923c43d2c0d05c53eba3.png",
-    "static/media/munition-pro.png": "/static/media/munition-pro.097de1e6f4eb527b4475.png",
-    "static/media/munition-common.png": "/static/media/munition-common.9ed490987af322a75126.png",
-    "static/media/munition-legendary.png": "/static/media/munition-legendary.6367e87289be0cf350ad.png",
+    "static/media/battery-common.png": "/static/media/battery-common.858fe2c1ae26d135e7fe.png",
+    "static/media/munition-pro.png": "/static/media/munition-pro.f43c8c863d1b212414e7.png",
+    "static/media/munition-legendary.png": "/static/media/munition-legendary.d573f00e869f9a827abb.png",
+    "static/media/munition-common.png": "/static/media/munition-common.361e28b405531cf55167.png",
+    "static/media/market.png": "/static/media/market.8b68b23473cdeebcf7ab.png",
     "static/media/cards.png": "/static/media/cards.a4e1126db2695832abc1.png",
-    "static/media/market.png": "/static/media/market.8419a37f61344a2c4850.png",
     "static/media/lands.png": "/static/media/lands.38968f0543c872f056a8.png",
     "static/media/establishments.png": "/static/media/establishments.791522f4b1115c2d60d3.png",
     "static/media/card-superlegendary.png": "/static/media/card-superlegendary.675c8c220bc2a86a2dca.png",
@@ -38,12 +38,12 @@
     "static/media/8.png": "/static/media/8.26d250f7f52be2594dd6.png",
     "static/media/10.png": "/static/media/10.cade8338e0f4d098722f.png",
     "index.html": "/index.html",
-    "main.e15e75c7.css.map": "/static/css/main.e15e75c7.css.map",
-    "main.e53dbd72.js.map": "/static/js/main.e53dbd72.js.map",
+    "main.ccfea001.css.map": "/static/css/main.ccfea001.css.map",
+    "main.fe69faa2.js.map": "/static/js/main.fe69faa2.js.map",
     "787.c23b093c.chunk.js.map": "/static/js/787.c23b093c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e15e75c7.css",
-    "static/js/main.e53dbd72.js"
+    "static/css/main.ccfea001.css",
+    "static/js/main.fe69faa2.js"
   ]
 }
