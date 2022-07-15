@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccfea001.css",
-    "main.js": "/static/js/main.fe69faa2.js",
+    "main.js": "/static/js/main.1d1dc65b.js",
     "static/js/787.c23b093c.chunk.js": "/static/js/787.c23b093c.chunk.js",
     "static/media/battery-legendary.png": "/static/media/battery-legendary.c105bbbfe563e01b8a45.png",
     "static/media/battery-pro.png": "/static/media/battery-pro.dcb5750ef2b79cd8bc88.png",
@@ -39,11 +39,11 @@
     "static/media/10.png": "/static/media/10.cade8338e0f4d098722f.png",
     "index.html": "/index.html",
     "main.ccfea001.css.map": "/static/css/main.ccfea001.css.map",
-    "main.fe69faa2.js.map": "/static/js/main.fe69faa2.js.map",
+    "main.1d1dc65b.js.map": "/static/js/main.1d1dc65b.js.map",
     "787.c23b093c.chunk.js.map": "/static/js/787.c23b093c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccfea001.css",
-    "static/js/main.fe69faa2.js"
+    "static/js/main.1d1dc65b.js"
   ]
 }
